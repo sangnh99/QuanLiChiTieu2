@@ -26,28 +26,29 @@
         >
         <ImageButton
             android:id="@+id/img_btn_vi_tien"
-            android:background="@drawable/ic_launcher_foreground"
+            android:background="@drawable/allet"
             android:layout_toLeftOf="@+id/img_btn_add"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="30dp"
             android:layout_alignParentBottom="true"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             ></ImageButton>
         <ImageButton
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:id="@+id/img_btn_add"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_add_black_24dp"
             ></ImageButton>
         <ImageButton
             android:id="@+id/img_btn_chi_tieu"
-            android:background="@drawable/ic_launcher_background"
+            android:background="@drawable/sotay"
             android:layout_toRightOf="@+id/img_btn_add"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="30dp"
             android:layout_alignParentBottom="true"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             ></ImageButton>
     </RelativeLayout>
 
